@@ -1,0 +1,17 @@
+<?php
+
+namespace DummyNamespace;
+
+use DummyModelNamespace;
+use waqar\crudmagic\magic\Contracts\Crud;
+use waqar\crudmagic\magic;
+
+class DummyClass implements Crud {
+    
+
+    
+    public function __construct(DummyModel $DummyServiceVar) {
+        $this->model = $DummyServiceVar;
+    }
+    
+}
